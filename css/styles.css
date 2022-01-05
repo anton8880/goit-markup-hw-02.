@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: Roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -17,35 +18,68 @@ ul {
 }
 
 /* Logo */
+.logo {
+  color: ;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
 
 /* Site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 /* Adress-nav */
 .cont-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 .cont-nav .link:hover,
 .cont-nav .link:focus {
   color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 /* Hero */
 
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 .hero {
   background-color: var(--primary-text-color);
 }
 .button {
   background-color: var(--accent-text-color);
+  font-family: inherit;
 }
 .button:hover,
 .button:focus {
@@ -54,12 +88,50 @@ ul {
 .button {
   color: #f5f4fa;
 }
+
 /* Section-title */
 .section-title {
   color: var(--primary-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .section-color {
   background-color: #f5f4fa;
+}
+
+/* Section-title-two */
+.section-title-two {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Section-title-three */
+.section-title-three {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Paragraph */
+.paragraph {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Footer */
 .footer {
@@ -75,12 +147,13 @@ ul {
 /* Button two */
 .button-two {
   background-color: #f5f4fa;
+  font-family: inherit;
 }
 .button-two {
   color: var(--primary-text-color);
 }
 .button-two:hover,
 .button-two:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-text-color);
   color: #ffffff;
 }
