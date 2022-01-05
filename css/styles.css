@@ -1,0 +1,86 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-text-color: #2196f3;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+/* Logo */
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Adress-nav */
+.cont-nav .link {
+  color: var(--title-text-color);
+}
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+}
+.hero {
+  background-color: var(--primary-text-color);
+}
+.button {
+  background-color: var(--accent-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+.button {
+  color: #f5f4fa;
+}
+/* Section-title */
+.section-title {
+  color: var(--primary-text-color);
+}
+.section-color {
+  background-color: #f5f4fa;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.adress-nav .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.direction {
+  color: #ffffff;
+}
+
+/* Button two */
+.button-two {
+  background-color: #f5f4fa;
+}
+.button-two {
+  color: var(--primary-text-color);
+}
+.button-two:hover,
+.button-two:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
