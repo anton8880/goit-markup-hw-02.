@@ -6,6 +6,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 :root {
   --primary-text-color: #212121;
@@ -17,13 +20,28 @@ ul {
   background-color: #ffffff;
 }
 
+/* Portfolio */
+.head-two {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.paragraph-two {
+  color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
 /* Logo */
 .logo {
-  color: ;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -43,6 +61,18 @@ ul {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #212121;
+}
+.logo-studio-two {
+  color: #ffffff;
 }
 
 /* Adress-nav */
@@ -79,14 +109,18 @@ ul {
 }
 .button {
   background-color: var(--accent-text-color);
-  font-family: inherit;
+  color: #f5f4fa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-}
-.button {
-  color: #f5f4fa;
 }
 
 /* Section-title */
@@ -147,7 +181,11 @@ ul {
 /* Button two */
 .button-two {
   background-color: #f5f4fa;
-  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.6;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-two {
   color: var(--primary-text-color);
