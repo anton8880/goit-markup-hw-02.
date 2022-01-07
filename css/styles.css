@@ -44,6 +44,15 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #212121;
+}
+.logo-studio-two {
+  color: #ffffff;
+}
 
 /* Site-nav */
 .site-nav .link {
@@ -64,15 +73,6 @@ a {
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
-}
-.logo-web {
-  color: #2196f3;
-}
-.logo-studio {
-  color: #212121;
-}
-.logo-studio-two {
-  color: #ffffff;
 }
 
 /* Adress-nav */
