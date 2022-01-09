@@ -108,15 +108,21 @@ a {
   background-color: var(--primary-text-color);
 }
 .button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px, 32px;
+  min-width: 200px;
+
   background-color: var(--accent-text-color);
   color: #f5f4fa;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -180,6 +186,10 @@ a {
 
 /* Button two */
 .button-two {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 1.6;
