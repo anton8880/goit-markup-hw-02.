@@ -177,6 +177,7 @@ a {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  font-family: Roboto, sans-serif;
 }
 .adress-nav .link {
   color: rgba(255, 255, 255, 0.6);
@@ -204,4 +205,13 @@ a {
 .button-two:focus {
   background-color: var(--accent-text-color);
   color: #ffffff;
+}
+
+.add {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
